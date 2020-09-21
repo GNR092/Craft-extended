@@ -4,7 +4,7 @@ description = "Adds Most Craft (silk,pigskin,tentaclespike,walrus tusk,gears)."
 author = "GNR092"
 
 -- Mod Version
-version = "1.12"
+version = "1.13"
 
 --[[
 
@@ -60,39 +60,16 @@ icon = "modicon.tex"
 configuration_options = 
 {
     {
-        name = "CHANGEDIFGears",
+        name = "CHANGEDIFRecipes",
         label = "Dificultad del crafteo",
-        hover = "Cambia la dificultad de crafteo de los Gears(Engranes).",
+        hover = "Cambia la dificultad del crafteo.",
         options = 
         {
-            {description = "Facil (Default)", data = 0, hover = "Dificultad facil"},
-            {description = "Medio", data = 1, hover = "Dificultad Medio"},
+            {description = "Facil", data = 0, hover = "Dificultad facil"},
+            {description = "Medio (Default)", data = 1, hover = "Dificultad Medio"},
             {description = "Dificil", data = 2, hover = "Dificultad Dificil"},
         },
-        default = 0,
-    },
-    --[[{
-        name = "CHANGEDIFPig",
-        label = "Dificultad del crafteo",
-        hover = "Cambia la dificultad del crarft de Pig Skin",
-        options =
-        {
-            {description = "Facil (Default)", data = 0, hover = "Dificultad facil"},
-            {description = "Medio", data = 1, hover = "Dificultad Medio"},
-            {description = "Dificil", data = 2, hover = "Dificultad Dificil"},
-        },
-        default = 0,
-    },
-    {
-        name = "CHANGEDIFSilk",
-        label = "Dificultad del crafteo",
-        hover = "Cambia la dificultad del crarft de Silk",
-        options =
-        {
-            {description = "Facil (Default)", data = 0, hover = "Dificultad facil"},
-            {description = "Medio", data = 1, hover = "Dificultad Medio"},
-            {description = "Dificil", data = 2, hover = "Dificultad Dificil"},
-        },
-        default = 0,
-    },]]--
+        default = 1,
+    }
+
 }
