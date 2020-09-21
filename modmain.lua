@@ -39,7 +39,7 @@ else
     else
         if RecDif == 2 then
             AddRecipe("silk", { Ingredientes("rope", 6), Ingredientes("meat", 2), Ingredientes("axe", 1) }, Receta.REFINE, Tech.SCIENCE_ONE,nil,nil,nil,2)
-            AddRecipe("pigskin", { Ingredientes("rope", 3), Ingredientes("silk", 3), Ingredientes("meat", 2) Ingredientes("axe", 1) }, Receta.REFINE, Tech.SCIENCE_ONE, nil, nil, nil, 2)
+            AddRecipe("pigskin", { Ingredientes("rope", 3), Ingredientes("silk", 3), Ingredientes("meat", 2), Ingredientes("axe", 1) }, Receta.REFINE, Tech.SCIENCE_ONE, nil, nil, nil, 2)
             AddRecipe("tentaclespike", { Ingredientes("stinger", 6),Ingredientes("rope", 1), Ingredientes("log", 3), Ingredientes("houndstooth", 3) }, Receta.WAR, Tech.SCIENCE_TWO)
             AddRecipe("walrus_tusk", { Ingredientes("houndstooth", 11), Ingredientes("nightmarefuel", 3), Ingredientes("hammer", 1) }, Receta.REFINE, Tech.SCIENCE_TWO)
             AddRecipe("gears", { Ingredientes("transistor", 5), Ingredientes("goldnugget", 5), Ingredientes("charcoal", 5) }, Receta.REFINE, Tech.SCIENCE_TWO)
